@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(background.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.container {
+    color: antiquewhite;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+
+.container h1 {
+    font-size: 45px;
+    color: rgb(8, 59, 15);
+    border-bottom: 5px solid purple;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.box {
+    width: 100%;
+    border-bottom: 3px solid purple;
+
+}
+
+.box input {
+    background: none;
+    width: 75%;
+    border: 3px blue;
+    border-radius: 15px;
+    outline: none;
+    margin: 16px 0;
+    padding: 5px 10px;
+    font-size: 25px;
+    color: white
+}
+
+.btn {
+    cursor: pointer;
+    margin: 15px 145px;
+    border: 2px solid purple;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 10px 14px;
+    background: none;
+
+}
+
+.btn:hover {
+    opacity: 0.5;
+    color: purple;
+    background-color: aliceblue;
+}
+
+.box i {
+    width: 25px;
+    text-align: center;
+    padding: 0 12px;
+}
